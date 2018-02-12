@@ -7,3 +7,4 @@
 ^appveyor\.yml$
 ^_pkgdown\.yml$
 ^ropensci-issue-draft\.md$
+^reviewer_template.md$
