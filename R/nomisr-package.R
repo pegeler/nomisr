@@ -16,7 +16,7 @@
 #' 
 #' 
 #' @docType package
-#' @name nmisr
+#' @name nomisr
 #' @importFrom jsonlite fromJSON
 #' @importFrom tibble as_tibble
 #' @importFrom readr read_csv
