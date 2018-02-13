@@ -2,7 +2,7 @@
 % Please edit documentation in R/data_sets.R
 \name{nomis_data_info}
 \alias{nomis_data_info}
-\title{Discovering data availability}
+\title{Discovering Nomis data availability}
 \usage{
 nomis_data_info(id)
 }
@@ -18,11 +18,11 @@ Retrieve all available data sets or the information available in a specific
 dataset based on its ID.
 }
 \examples{
-\dontrun{
+\donttest{
 
 x <- nomis_data_info()
 
-y <- nomis_data_info("NM_1658_1")
+y <- nomis_data_info('NM_1658_1')
 
 }
 }

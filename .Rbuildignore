@@ -8,3 +8,7 @@
 ^_pkgdown\.yml$
 ^ropensci-issue-draft\.md$
 ^reviewer_template.md$
+^CONDUCT\.md$
+^a\.csv$
+^a\.xlsx$
+^~$a\.xlsx$
