@@ -2,7 +2,7 @@
 % Please edit documentation in R/search.R
 \name{nomis_search}
 \alias{nomis_search}
-\title{Search nomis datasets}
+\title{Search Nomis datasets}
 \usage{
 nomis_search(search, keywords = FALSE)
 }
