@@ -1,11 +1,11 @@
 
 #' Discovering Nomis data availability
 #' 
-#' Retrieve all available data sets or the information available in a specific 
+#' Retrieve metadata for all available data sets or a specific 
 #' dataset based on its ID.
 #'
-#' @param id Dataset ID. If empty, returns data on all available datasets. 
-#' If the ID of a dataset, returns metadata for that particular dataset.
+#' @param id Dataset ID. If omitted, returns metadata on all available datasets. 
+#' If the ID of a dataset is supplied, returns metadata for that particular dataset.
 #'
 #' @return A tibble with all available datasets and their metadata. 
 #' @export

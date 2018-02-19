@@ -1,6 +1,6 @@
 
 
-#' Search nomis datasets
+#' Search Nomis datasets
 #' 
 #' A function to search for datasets on given topics. The search string by 
 #' default looks in the names and descriptions of datasets.
