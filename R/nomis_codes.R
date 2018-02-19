@@ -45,7 +45,7 @@ nomis_codes <- function(id, code = NULL, type = NULL) {
         
     } else {
         
-        type_query <- ifelse(is.null(type) == FALSE, paste0("/", type), "")
+        type_query <- ifelse(is.null(type), "", paste0("/", type))
         
         a <- jsonlite::fromJSON(paste0(base_url, id, "/", code, type_query, 
                                        "/def.sdmx.json?"),
